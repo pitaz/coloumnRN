@@ -17,6 +17,7 @@ export const RenderItem = (items, navigation) => {
       thumbnailPath: item?.thumbnailPath,
       mobileType: item?.phoneNumbers[0]?.label,
       number: item?.phoneNumbers[0]?.number,
+      hasThumbnail: item?.hasThumbnail,
     };
     navigation.navigate('contact-detail', {...data});
   };

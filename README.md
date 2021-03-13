@@ -1,5 +1,5 @@
 # coloumnRN
-#### The React native application uses unsplash api to search users and display their profile along with their photos
+#### The React native application
 
 # Getting Started
 #### Follow the steps below to start this project

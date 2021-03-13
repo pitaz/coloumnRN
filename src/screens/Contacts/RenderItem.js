@@ -9,7 +9,7 @@ import {nameInitials} from '../../helpers/nameInitials';
  * @param {object} props
  */
 export const RenderItem = (items, navigation) => {
-  const {item} = items;
+  const {item, index} = items;
   const navigate = () => {
     const data = {
       givenName: item?.givenName,
@@ -21,7 +21,10 @@ export const RenderItem = (items, navigation) => {
     navigation.navigate('contact-detail', {...data});
   };
   return (
-    <TouchableOpacity style={styles.contact} onPress={navigate}>
+    <TouchableOpacity
+      style={styles.contact}
+      onPress={navigate}
+      testID={`contact-row-${index}`}>
       {item?.hasThumbnail ? (
         <Image source={{uri: item?.thumbnailPath}} style={styles.avatar} />
       ) : (

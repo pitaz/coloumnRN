@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      Back
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 40,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 14,
+            "elevation": 1,
+            "marginBottom": 37.5,
+            "marginLeft": 37.5,
+            "marginRight": 37.5,
+            "marginTop": 37.5,
+            "paddingBottom": 37.5,
+            "paddingLeft": 15,
+            "paddingRight": 52.5,
+            "paddingTop": 37.5,
+            "shadowColor": "rgba(0, 0, 0, 0.15)",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 15,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 40,
+            "paddingTop": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#242038",
+              "borderRadius": 75,
+              "height": 100,
+              "justifyContent": "center",
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+              }
+            }
+          >
+            undefinedundefined
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "padding": 20,
+            }
+          }
+        >
+          undefined undefined
+        </Text>
+        <Text>
+          undefined: undefined
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

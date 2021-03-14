@@ -41,8 +41,9 @@ const ContactsList = ({navigation}) => {
   const Loader = () => <ActivityIndicator size="large" color="#000000" />;
   return (
     <SafeAreaView style={styles.safeAreaView}>
-      <View style={styles.homeWrapper}>
+      <View style={styles.homeWrapper} testID="listWrapper">
         <FlatList
+          testID="list"
           data={data?.sort(compare)}
           renderItem={(item) => RenderItem(item, navigation)}
           ListHeaderComponent={RenderHeader}

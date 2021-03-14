@@ -5,12 +5,10 @@ import Button from '../../components/Button';
 import {styles} from './styles';
 
 const Home = ({navigation}) => {
+  const navigate = () => navigation.navigate('contacts');
   return (
     <View style={styles.homeWrapper}>
-      <Button
-        label="Open contacts"
-        onPress={() => navigation.navigate('contacts')}
-      />
+      <Button testID="contactBtn" label="Open contacts" onPress={navigate} />
     </View>
   );
 };

@@ -22,10 +22,7 @@ export const RenderItem = (items, navigation) => {
     navigation.navigate('contact-detail', {...data});
   };
   return (
-    <TouchableOpacity
-      style={styles.contact}
-      onPress={navigate}
-      testID={`contact-row-${index}`}>
+    <TouchableOpacity testID="item" style={styles.contact} onPress={navigate}>
       {item?.hasThumbnail ? (
         <Image source={{uri: item?.thumbnailPath}} style={styles.avatar} />
       ) : (
